@@ -6,14 +6,12 @@ Virtual environments for ZIO projects using Nix flakes.
 
 ### Create a new ZIO library
 ```bash
-nix flake init -t github:EstebanMarin/ziolevel-nix#library
-nix develop
+nix develop github:EstebanMarin/ziolevel-nix#library
 ```
 
 ### Create a new ZIO application
 ```bash
-nix flake init -t github:EstebanMarin/ziolevel-nix#application
-nix develop
+nix develop github:EstebanMarin/ziolevel-nix#app
 ```
 
 ## Available Templates
@@ -32,7 +30,7 @@ nix develop
 
 Enter the development shell:
 ```bash
-nix develop
+nix develop .#library
 ```
 
-All tools will be available with proper JAVA_HOME configuration.
+

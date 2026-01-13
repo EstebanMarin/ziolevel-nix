@@ -1,0 +1,11 @@
+//> using scala "3.3.4"
+//> using dep "dev.zio::zio:2.1.24"
+//> using dep "dev.zio::zio-http:3.0.0"
+//> using dep "dev.zio::zio-json:0.6.2"
+//> using dep "dev.zio::zio-schema:1.4.1"
+//> using dep "dev.zio::zio-config:4.0.2"
+//> using dep "dev.zio::zio-logging:2.3.1"
+//> using dep "dev.zio::zio-streams:2.0.21"
+//> using dep "dev.zio::zio-test:2.1.24"
+
+//> using testFramework "zio.test.sbt.ZTestFramework"
