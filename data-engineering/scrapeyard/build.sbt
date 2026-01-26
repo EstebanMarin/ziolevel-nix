@@ -1,0 +1,15 @@
+ThisBuild / version := "0.1.0-SNAPSHOT"
+ThisBuild / scalaVersion := "3.3.1"
+
+lazy val root = (project in file("."))
+  .settings(
+    name := "scrapeyard",
+    libraryDependencies ++= Seq(
+      "org.jsoup" % "jsoup" % "1.22.1",
+      "com.lihaoyi" %% "requests" % "0.9.2",
+      "org.scala-lang.modules" %% "scala-parallel-collections" % "1.2.0",
+      "org.quartz-scheduler" % "quartz" % "2.5.2",
+      "org.quartz-scheduler" % "quartz-jobs" % "2.5.2",
+      "com.sun.mail" % "javax.mail" % "1.6.2"
+    )
+  )
